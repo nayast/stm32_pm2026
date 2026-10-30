@@ -1,0 +1,6 @@
+/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles/stm32_template.dir
+/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles/bin.dir
+/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles/hex.dir
+/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles/flash.dir
+/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles/rebuild_cache.dir

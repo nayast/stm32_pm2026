@@ -1,4 +1,7 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.10)
+
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
 # Disable compiler checking
 # Otherwise it will fall with `reference to _exit() not found` error
@@ -38,11 +41,8 @@ set(CMAKE_C_LINK_FLAGS ${LINKER_FLAGS})
 
 message("DIRECTORY ${EXECUTABLE_OUTPUT_PATH}")
 
-# Preprocessor definitions set MCU family and so-called "density"
 add_definitions(-DSTM32F103C8)
 add_definitions(-DSTM32F10X_MD)
-# We don't use SPL in out template
-# add_definitions(-DUSE_STDPERIPH_DRIVER)
 
 include_directories(cmsis)
 include_directories(stm32)
@@ -57,7 +57,6 @@ file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/.gdbinit DESTINATION ${EXECUTABLE_OUTPUT_P
 
 add_executable(${TARGET_NAME} ${SOURCE_FILES})
 
-# Targets for make firmware in different formats
 set(BIN_TARGET "${EXECUTABLE_OUTPUT_PATH}/${TARGET_NAME}.bin")
 set(HEX_TARGET "${EXECUTABLE_OUTPUT_PATH}/${TARGET_NAME}.hex")
 set(ELF_TARGET "${EXECUTABLE_OUTPUT_PATH}/${TARGET_NAME}${CMAKE_EXECUTABLE_SUFFIX}")

@@ -73,7 +73,7 @@ void ssd1306_draw_chessboard(void) {
     ssd1306_write_cmd(0x00);
     ssd1306_write_cmd(0x07);
 
-    for (uint16_t i = 0; i < 1024; i++) { // 128 колонок * 8 страниц = 1024 байта
+    for (uint16_t i = 0; i < 1024; i++) {
         uint8_t page = i / 128;
         uint8_t col = i % 128;
         

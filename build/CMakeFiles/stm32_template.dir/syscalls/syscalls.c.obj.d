@@ -1,4 +1,4 @@
-CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o: \
+CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj: \
  /home/vboxuser/mc/stm32_pm2026/syscalls/syscalls.c \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \

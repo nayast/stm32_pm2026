@@ -618,18 +618,6 @@
 			"value" : "/usr/local"
 		},
 		{
-			"name" : "CMAKE_INSTALL_SO_NO_EXE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Install .so files without execute permission."
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "CMAKE_LINKER",
 			"properties" : 
 			[

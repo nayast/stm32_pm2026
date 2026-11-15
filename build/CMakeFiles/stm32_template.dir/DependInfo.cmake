@@ -8,10 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vboxuser/mc/stm32_pm2026/main.c" "CMakeFiles/stm32_template.dir/main.c.o" "gcc" "CMakeFiles/stm32_template.dir/main.c.o.d"
-  "/home/vboxuser/mc/stm32_pm2026/stm32/startup/startup_stm32f10x_md.c" "CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o" "gcc" "CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o.d"
-  "/home/vboxuser/mc/stm32_pm2026/stm32/system_stm32f10x.c" "CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o" "gcc" "CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o.d"
-  "/home/vboxuser/mc/stm32_pm2026/syscalls/syscalls.c" "CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o" "gcc" "CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o.d"
+  "/home/vboxuser/mc/stm32_pm2026/main.c" "CMakeFiles/stm32_template.dir/main.c.obj" "gcc" "CMakeFiles/stm32_template.dir/main.c.obj.d"
+  "/home/vboxuser/mc/stm32_pm2026/spi.c" "CMakeFiles/stm32_template.dir/spi.c.obj" "gcc" "CMakeFiles/stm32_template.dir/spi.c.obj.d"
+  "/home/vboxuser/mc/stm32_pm2026/ssd1306.c" "CMakeFiles/stm32_template.dir/ssd1306.c.obj" "gcc" "CMakeFiles/stm32_template.dir/ssd1306.c.obj.d"
+  "/home/vboxuser/mc/stm32_pm2026/stm32/startup/startup_stm32f10x_md.c" "CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj" "gcc" "CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj.d"
+  "/home/vboxuser/mc/stm32_pm2026/stm32/system_stm32f10x.c" "CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj" "gcc" "CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj.d"
+  "/home/vboxuser/mc/stm32_pm2026/syscalls/syscalls.c" "CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj" "gcc" "CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

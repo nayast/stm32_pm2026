@@ -1,4 +1,4 @@
-CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o: \
+CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj: \
  /home/vboxuser/mc/stm32_pm2026/stm32/system_stm32f10x.c \
  /home/vboxuser/mc/stm32_pm2026/stm32/stm32f10x.h \
  /home/vboxuser/mc/stm32_pm2026/cmsis/core_cm3.h \

@@ -168,13 +168,13 @@ flash/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/build
 .PHONY : flash/fast
 
-main.o: main.c.o
-.PHONY : main.o
+main.obj: main.c.obj
+.PHONY : main.obj
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/main.c.o
-.PHONY : main.c.o
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/main.c.obj
+.PHONY : main.c.obj
 
 main.i: main.c.i
 .PHONY : main.i
@@ -192,13 +192,61 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/main.c.s
 .PHONY : main.c.s
 
-stm32/startup/startup_stm32f10x_md.o: stm32/startup/startup_stm32f10x_md.c.o
-.PHONY : stm32/startup/startup_stm32f10x_md.o
+spi.obj: spi.c.obj
+.PHONY : spi.obj
 
 # target to build an object file
-stm32/startup/startup_stm32f10x_md.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o
-.PHONY : stm32/startup/startup_stm32f10x_md.c.o
+spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/spi.c.obj
+.PHONY : spi.c.obj
+
+spi.i: spi.c.i
+.PHONY : spi.i
+
+# target to preprocess a source file
+spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/spi.c.i
+.PHONY : spi.c.i
+
+spi.s: spi.c.s
+.PHONY : spi.s
+
+# target to generate assembly for a file
+spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/spi.c.s
+.PHONY : spi.c.s
+
+ssd1306.obj: ssd1306.c.obj
+.PHONY : ssd1306.obj
+
+# target to build an object file
+ssd1306.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/ssd1306.c.obj
+.PHONY : ssd1306.c.obj
+
+ssd1306.i: ssd1306.c.i
+.PHONY : ssd1306.i
+
+# target to preprocess a source file
+ssd1306.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/ssd1306.c.i
+.PHONY : ssd1306.c.i
+
+ssd1306.s: ssd1306.c.s
+.PHONY : ssd1306.s
+
+# target to generate assembly for a file
+ssd1306.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/ssd1306.c.s
+.PHONY : ssd1306.c.s
+
+stm32/startup/startup_stm32f10x_md.obj: stm32/startup/startup_stm32f10x_md.c.obj
+.PHONY : stm32/startup/startup_stm32f10x_md.obj
+
+# target to build an object file
+stm32/startup/startup_stm32f10x_md.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj
+.PHONY : stm32/startup/startup_stm32f10x_md.c.obj
 
 stm32/startup/startup_stm32f10x_md.i: stm32/startup/startup_stm32f10x_md.c.i
 .PHONY : stm32/startup/startup_stm32f10x_md.i
@@ -216,13 +264,13 @@ stm32/startup/startup_stm32f10x_md.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.s
 .PHONY : stm32/startup/startup_stm32f10x_md.c.s
 
-stm32/system_stm32f10x.o: stm32/system_stm32f10x.c.o
-.PHONY : stm32/system_stm32f10x.o
+stm32/system_stm32f10x.obj: stm32/system_stm32f10x.c.obj
+.PHONY : stm32/system_stm32f10x.obj
 
 # target to build an object file
-stm32/system_stm32f10x.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o
-.PHONY : stm32/system_stm32f10x.c.o
+stm32/system_stm32f10x.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj
+.PHONY : stm32/system_stm32f10x.c.obj
 
 stm32/system_stm32f10x.i: stm32/system_stm32f10x.c.i
 .PHONY : stm32/system_stm32f10x.i
@@ -240,13 +288,13 @@ stm32/system_stm32f10x.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.s
 .PHONY : stm32/system_stm32f10x.c.s
 
-syscalls/syscalls.o: syscalls/syscalls.c.o
-.PHONY : syscalls/syscalls.o
+syscalls/syscalls.obj: syscalls/syscalls.c.obj
+.PHONY : syscalls/syscalls.obj
 
 # target to build an object file
-syscalls/syscalls.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o
-.PHONY : syscalls/syscalls.c.o
+syscalls/syscalls.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_template.dir/build.make CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj
+.PHONY : syscalls/syscalls.c.obj
 
 syscalls/syscalls.i: syscalls/syscalls.c.i
 .PHONY : syscalls/syscalls.i
@@ -276,16 +324,22 @@ help:
 	@echo "... flash"
 	@echo "... hex"
 	@echo "... stm32_template"
-	@echo "... main.o"
+	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... stm32/startup/startup_stm32f10x_md.o"
+	@echo "... spi.obj"
+	@echo "... spi.i"
+	@echo "... spi.s"
+	@echo "... ssd1306.obj"
+	@echo "... ssd1306.i"
+	@echo "... ssd1306.s"
+	@echo "... stm32/startup/startup_stm32f10x_md.obj"
 	@echo "... stm32/startup/startup_stm32f10x_md.i"
 	@echo "... stm32/startup/startup_stm32f10x_md.s"
-	@echo "... stm32/system_stm32f10x.o"
+	@echo "... stm32/system_stm32f10x.obj"
 	@echo "... stm32/system_stm32f10x.i"
 	@echo "... stm32/system_stm32f10x.s"
-	@echo "... syscalls/syscalls.o"
+	@echo "... syscalls/syscalls.obj"
 	@echo "... syscalls/syscalls.i"
 	@echo "... syscalls/syscalls.s"
 .PHONY : help

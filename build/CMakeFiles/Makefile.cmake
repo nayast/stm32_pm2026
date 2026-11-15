@@ -26,18 +26,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake"
   "/usr/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "/usr/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-C.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-CXX.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-C.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU-CXX.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linker/Linux-GNU.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linux-GNU-C.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linux-GNU-CXX.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linux-GNU.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linux-Initialize.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/Linux.cmake"
-  "/usr/share/cmake-4.2/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-4.2/Modules/Platform/Generic.cmake"
   )
 
 # The corresponding makefile is:

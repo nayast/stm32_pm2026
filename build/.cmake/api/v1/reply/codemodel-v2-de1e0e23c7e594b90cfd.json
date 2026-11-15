@@ -10,7 +10,7 @@
 					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.11"
+						"string" : "3.10"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -46,28 +46,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "bin::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bin-Debug-8e82edd57f67256e8061.json",
+					"jsonFile" : "target-bin-Debug-83072596209b917b3073.json",
 					"name" : "bin",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "flash::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-flash-Debug-e7f9f4ebd50265200a67.json",
+					"jsonFile" : "target-flash-Debug-a40495922f80acaf49f3.json",
 					"name" : "flash",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "hex::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hex-Debug-02c94d836f47f5feabc7.json",
+					"jsonFile" : "target-hex-Debug-e29678f87eae485624e3.json",
 					"name" : "hex",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "stm32_template::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-stm32_template-Debug-675b9dc371c7ee6f2b08.json",
+					"jsonFile" : "target-stm32_template-Debug-ef6a7b09bb7242c428d0.json",
 					"name" : "stm32_template",
 					"projectIndex" : 0
 				}

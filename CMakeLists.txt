@@ -3,8 +3,6 @@ cmake_minimum_required(VERSION 3.10)
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
-# Disable compiler checking
-# Otherwise it will fall with `reference to _exit() not found` error
 set(CMAKE_C_COMPILER_WORKS 1)
 set(CMAKE_CXX_COMPILER_WORKS 1)
 
@@ -15,7 +13,6 @@ set(CMAKE_SHARED_LIBRARY_LINK_CXX_FLAGS)
 
 set(TARGET_NAME ${PROJECT_NAME})
 
-# Set compiler and utility path (actual if arm-none-eabi is not in PATH env variable)
 set(ARM_TOOLCHAIN_PATH $ENV{ARM_TOOLCHAIN_PATH})
 set(CMAKE_C_COMPILER ${ARM_TOOLCHAIN_PATH}arm-none-eabi-gcc)
 set(OBJCOPY ${ARM_TOOLCHAIN_PATH}arm-none-eabi-objcopy)
@@ -32,11 +29,10 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fno-move-loop-invariants -fsigned-char -ffr
 
 set(LINKER_FLAGS "-nostdlib -nostartfiles")
 set(LINKER_FLAGS "${LINKER_FLAGS} -Xlinker -Map -Xlinker ${TARGET_NAME}.map ")
-# Choose ld file for your MCU carefully
+
 set(LINKER_FLAGS "${LINKER_FLAGS} -Xlinker -T ${CMAKE_CURRENT_SOURCE_DIR}/stm32f103c8.ld")
-# set(LINKER_FLAGS "${LINKER_FLAGS} -mcpu=cortex-m3 -mthumb -nostartfiles -g ") #Not necessary
 set(LINKER_FLAGS "${LINKER_FLAGS} -Wl,--gc-sections ")
-# Passing flags to cmake linker variable
+
 set(CMAKE_C_LINK_FLAGS ${LINKER_FLAGS})
 
 message("DIRECTORY ${EXECUTABLE_OUTPUT_PATH}")
@@ -48,12 +44,13 @@ include_directories(cmsis)
 include_directories(stm32)
 
 set(SOURCE_FILES
-    stm32/startup/startup_stm32f10x_md.c # Choose startup file for your MCU
+    stm32/startup/startup_stm32f10x_md.c
     stm32/system_stm32f10x.c
     syscalls/syscalls.c
+    spi.c
+    ssd1306.c
     main.c)
 
-file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/.gdbinit DESTINATION ${EXECUTABLE_OUTPUT_PATH})
 
 add_executable(${TARGET_NAME} ${SOURCE_FILES})
 

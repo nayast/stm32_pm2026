@@ -72,11 +72,11 @@ include CMakeFiles/stm32_template.dir/flags.make
 CMakeFiles/stm32_template.dir/codegen:
 .PHONY : CMakeFiles/stm32_template.dir/codegen
 
-CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o: CMakeFiles/stm32_template.dir/flags.make
-CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o: /home/vboxuser/mc/stm32_pm2026/stm32/startup/startup_stm32f10x_md.c
-CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o: CMakeFiles/stm32_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o -MF CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o.d -o CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o -c /home/vboxuser/mc/stm32_pm2026/stm32/startup/startup_stm32f10x_md.c
+CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj: CMakeFiles/stm32_template.dir/flags.make
+CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj: /home/vboxuser/mc/stm32_pm2026/stm32/startup/startup_stm32f10x_md.c
+CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj: CMakeFiles/stm32_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj -MF CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj.d -o CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj -c /home/vboxuser/mc/stm32_pm2026/stm32/startup/startup_stm32f10x_md.c
 
 CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.i"
@@ -86,11 +86,11 @@ CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.s"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/mc/stm32_pm2026/stm32/startup/startup_stm32f10x_md.c -o CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.s
 
-CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o: CMakeFiles/stm32_template.dir/flags.make
-CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o: /home/vboxuser/mc/stm32_pm2026/stm32/system_stm32f10x.c
-CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o: CMakeFiles/stm32_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o -MF CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o.d -o CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o -c /home/vboxuser/mc/stm32_pm2026/stm32/system_stm32f10x.c
+CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj: CMakeFiles/stm32_template.dir/flags.make
+CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj: /home/vboxuser/mc/stm32_pm2026/stm32/system_stm32f10x.c
+CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj: CMakeFiles/stm32_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj -MF CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj.d -o CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj -c /home/vboxuser/mc/stm32_pm2026/stm32/system_stm32f10x.c
 
 CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.i"
@@ -100,11 +100,11 @@ CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.s"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/mc/stm32_pm2026/stm32/system_stm32f10x.c -o CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.s
 
-CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o: CMakeFiles/stm32_template.dir/flags.make
-CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o: /home/vboxuser/mc/stm32_pm2026/syscalls/syscalls.c
-CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o: CMakeFiles/stm32_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o -MF CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o.d -o CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o -c /home/vboxuser/mc/stm32_pm2026/syscalls/syscalls.c
+CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj: CMakeFiles/stm32_template.dir/flags.make
+CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj: /home/vboxuser/mc/stm32_pm2026/syscalls/syscalls.c
+CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj: CMakeFiles/stm32_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj -MF CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj.d -o CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj -c /home/vboxuser/mc/stm32_pm2026/syscalls/syscalls.c
 
 CMakeFiles/stm32_template.dir/syscalls/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_template.dir/syscalls/syscalls.c.i"
@@ -114,11 +114,39 @@ CMakeFiles/stm32_template.dir/syscalls/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_template.dir/syscalls/syscalls.c.s"
 	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/mc/stm32_pm2026/syscalls/syscalls.c -o CMakeFiles/stm32_template.dir/syscalls/syscalls.c.s
 
-CMakeFiles/stm32_template.dir/main.c.o: CMakeFiles/stm32_template.dir/flags.make
-CMakeFiles/stm32_template.dir/main.c.o: /home/vboxuser/mc/stm32_pm2026/main.c
-CMakeFiles/stm32_template.dir/main.c.o: CMakeFiles/stm32_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/stm32_template.dir/main.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/main.c.o -MF CMakeFiles/stm32_template.dir/main.c.o.d -o CMakeFiles/stm32_template.dir/main.c.o -c /home/vboxuser/mc/stm32_pm2026/main.c
+CMakeFiles/stm32_template.dir/spi.c.obj: CMakeFiles/stm32_template.dir/flags.make
+CMakeFiles/stm32_template.dir/spi.c.obj: /home/vboxuser/mc/stm32_pm2026/spi.c
+CMakeFiles/stm32_template.dir/spi.c.obj: CMakeFiles/stm32_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/stm32_template.dir/spi.c.obj"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/spi.c.obj -MF CMakeFiles/stm32_template.dir/spi.c.obj.d -o CMakeFiles/stm32_template.dir/spi.c.obj -c /home/vboxuser/mc/stm32_pm2026/spi.c
+
+CMakeFiles/stm32_template.dir/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_template.dir/spi.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/mc/stm32_pm2026/spi.c > CMakeFiles/stm32_template.dir/spi.c.i
+
+CMakeFiles/stm32_template.dir/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_template.dir/spi.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/mc/stm32_pm2026/spi.c -o CMakeFiles/stm32_template.dir/spi.c.s
+
+CMakeFiles/stm32_template.dir/ssd1306.c.obj: CMakeFiles/stm32_template.dir/flags.make
+CMakeFiles/stm32_template.dir/ssd1306.c.obj: /home/vboxuser/mc/stm32_pm2026/ssd1306.c
+CMakeFiles/stm32_template.dir/ssd1306.c.obj: CMakeFiles/stm32_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/stm32_template.dir/ssd1306.c.obj"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/ssd1306.c.obj -MF CMakeFiles/stm32_template.dir/ssd1306.c.obj.d -o CMakeFiles/stm32_template.dir/ssd1306.c.obj -c /home/vboxuser/mc/stm32_pm2026/ssd1306.c
+
+CMakeFiles/stm32_template.dir/ssd1306.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_template.dir/ssd1306.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/mc/stm32_pm2026/ssd1306.c > CMakeFiles/stm32_template.dir/ssd1306.c.i
+
+CMakeFiles/stm32_template.dir/ssd1306.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/stm32_template.dir/ssd1306.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/mc/stm32_pm2026/ssd1306.c -o CMakeFiles/stm32_template.dir/ssd1306.c.s
+
+CMakeFiles/stm32_template.dir/main.c.obj: CMakeFiles/stm32_template.dir/flags.make
+CMakeFiles/stm32_template.dir/main.c.obj: /home/vboxuser/mc/stm32_pm2026/main.c
+CMakeFiles/stm32_template.dir/main.c.obj: CMakeFiles/stm32_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/stm32_template.dir/main.c.obj"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_template.dir/main.c.obj -MF CMakeFiles/stm32_template.dir/main.c.obj.d -o CMakeFiles/stm32_template.dir/main.c.obj -c /home/vboxuser/mc/stm32_pm2026/main.c
 
 CMakeFiles/stm32_template.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/stm32_template.dir/main.c.i"
@@ -130,21 +158,25 @@ CMakeFiles/stm32_template.dir/main.c.s: cmake_force
 
 # Object files for target stm32_template
 stm32_template_OBJECTS = \
-"CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o" \
-"CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o" \
-"CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o" \
-"CMakeFiles/stm32_template.dir/main.c.o"
+"CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj" \
+"CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj" \
+"CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj" \
+"CMakeFiles/stm32_template.dir/spi.c.obj" \
+"CMakeFiles/stm32_template.dir/ssd1306.c.obj" \
+"CMakeFiles/stm32_template.dir/main.c.obj"
 
 # External object files for target stm32_template
 stm32_template_EXTERNAL_OBJECTS =
 
-build/stm32_template.elf: CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.o
-build/stm32_template.elf: CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.o
-build/stm32_template.elf: CMakeFiles/stm32_template.dir/syscalls/syscalls.c.o
-build/stm32_template.elf: CMakeFiles/stm32_template.dir/main.c.o
+build/stm32_template.elf: CMakeFiles/stm32_template.dir/stm32/startup/startup_stm32f10x_md.c.obj
+build/stm32_template.elf: CMakeFiles/stm32_template.dir/stm32/system_stm32f10x.c.obj
+build/stm32_template.elf: CMakeFiles/stm32_template.dir/syscalls/syscalls.c.obj
+build/stm32_template.elf: CMakeFiles/stm32_template.dir/spi.c.obj
+build/stm32_template.elf: CMakeFiles/stm32_template.dir/ssd1306.c.obj
+build/stm32_template.elf: CMakeFiles/stm32_template.dir/main.c.obj
 build/stm32_template.elf: CMakeFiles/stm32_template.dir/build.make
 build/stm32_template.elf: CMakeFiles/stm32_template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable build/stm32_template.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vboxuser/mc/stm32_pm2026/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable build/stm32_template.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stm32_template.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
